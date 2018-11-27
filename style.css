@@ -44,19 +44,26 @@
   margin-top: 115px;
 }
 
+.carousel-item {
+  height: 720px;
+}
 .avvg-about {
   height: 1000px;
 }
 
 .avvg-slider-caption {
-  right: 50%;
-  left: 10%;
   bottom: 60%;
-  text-align: left;
+  text-align: center;
 }
 
+/* Typed */
 .avvg-slider-caption p{
   margin-top: 2rem;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 60px;
+  color: var(--yellow);
+  font-weight: 600;
+
 }
 
 .avvg-heading {
@@ -165,7 +172,7 @@
 }
 .avvg-contact {
   background-color: var(--red);
-  height: 1080px;
+  height: 840px;
 }
 
 .avvg-contact .row {
